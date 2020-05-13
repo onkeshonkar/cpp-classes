@@ -1,0 +1,61 @@
+img {
+  height: 450px;
+  width: auto;
+  margin-top: 10px;
+}
+
+h1 {
+  color: #09052d;
+  padding: 10px;
+  font-size: 24px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(17, 3, 27);
+}
+
+a.link:hover {
+  color: #5b52a9;
+  text-decoration: underline;
+}
+
+p {
+  font-size: 15px;
+  color: rgb(17, 3, 27);
+  line-height: 15px;
+  padding: 0.3rem 0.2rem;
+}
+
+h2 {
+  color: #5145bd;
+  padding: 10px;
+  font-size: 21px;
+}
+
+.guide {
+  margin: 20px 15px;
+}
+
+.guide p {
+  font-size: 20px;
+  line-height: 20px;
+}
+.congrats {
+  font-size: 24px;
+}
+
+@media (max-width: 768px) {
+  .guide img {
+    height: 15rem;
+    width: auto;
+    margin-top: 10px;
+  }
+
+  .guide {
+    margin: 5px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+}

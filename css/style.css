@@ -1,0 +1,39 @@
+.content .image {
+  font-size: 24px;
+  font-weight: 600;
+  margin: 15px 10px;
+  color: rgb(45, 14, 56);
+}
+
+.module {
+  margin: 15px 10px;
+  padding: 8px;
+  border: 1.3px solid #e2e7ef;
+  border-radius: 10px;
+  max-width: 60%;
+  
+}
+.module h1 {
+  color: #5b52a9;
+  text-decoration: underline;
+  padding: 10px;
+  font-size: 19px;
+}
+.module h2 {
+  margin-left: 10px;
+  font-size: 17px;
+  color: #43444a;
+  padding: 3px 0;
+}
+.module h3 {
+  margin-left: 30px;
+  font-size: 14px;
+  color: rgb(17, 3, 27);
+  line-height: 20px;
+}
+
+@media (max-width: 768px) {
+  .content .module {
+    max-width: 500px;
+  }
+}
