@@ -5,26 +5,26 @@ img {
 }
 
 h1 {
-  color: #09052d;
+  color: #24292e;
   padding: 10px;
+  padding-left: 0;
   font-size: 24px;
 }
 
 a {
+  color: #5b52a9;
   text-decoration: none;
-  color: rgb(17, 3, 27);
 }
 
 a.link:hover {
-  color: #5b52a9;
   text-decoration: underline;
 }
 
 p {
   font-size: 15px;
   color: rgb(17, 3, 27);
-  line-height: 15px;
-  padding: 0.3rem 0.2rem;
+  line-height: 18px;
+  padding: 2px 5px;
 }
 
 h2 {
@@ -38,11 +38,13 @@ h2 {
 }
 
 .guide p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 20px;
+  color: #010408;
 }
 .congrats {
   font-size: 24px;
+
 }
 
 @media (max-width: 768px) {
@@ -57,5 +59,4 @@ h2 {
     display: flex;
     flex-direction: column;
   }
-  
 }
